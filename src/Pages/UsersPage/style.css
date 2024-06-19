@@ -1,0 +1,84 @@
+.UsersPage{
+    max-width: 100%;
+    padding: 20px;
+    min-height: 100vh;
+    background: #F0F2F0;
+    background: -webkit-linear-gradient(to right, #4d6b86, #F0F2F0);
+    background: linear-gradient(to right, #4d6086, #F0F2F0);
+}
+
+.UsersPage button{
+    margin: 20px 92%;
+    padding: 10px;
+    color: #1a4b8bd4;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 3px 10px #1a4b8b;
+    transition: transform 0.5s ease-in-out;
+    animation: moveLeft 1s ease-in-out;
+}
+.UsersPage button:hover{
+    transform: scale(1.1);
+}
+
+.UsersPage button i{
+    font-size: 30px;
+    transition: filter 0.5s ease-in-out;
+}
+
+.UsersPage button i:hover{
+    text-shadow: rgb(1, 21, 41);
+}
+
+@keyframes moveLeft {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-20px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+
+.usersSection{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.userCard {
+  min-width: 250px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 3px 10px #1a4b8b;
+  background-color: #fff;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.5s ease-in-out;
+}
+
+.userCard:hover{
+    transform: scale(0.9);
+}
+
+.userCard img {
+  width: 150px;
+  height: 150px;
+}
+
+.userCard h2{
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #333;
+}
+
+.userCard span{
+    color: #1e5296;
+    font-size: 18px;
+}

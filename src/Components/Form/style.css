@@ -1,0 +1,129 @@
+.Form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 40px;
+  background: #F0F2F0;
+  background: -webkit-linear-gradient(to right, #4d6b86, #F0F2F0);
+  background: linear-gradient(to right, #4d6086, #F0F2F0);
+  box-shadow: rgb(1, 21, 41) 6px 2px 16px 0px, rgba(112, 170, 232, 0.8) -6px -2px 16px 0px;
+}
+
+.Form button{
+    width: 200px;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: cursive;
+    color: #1a4b8b;
+    border-radius: 20px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 3px 10px #1a4b8b;
+    transition: transform 0.5s ease-in-out;
+}
+.Form button:hover{
+    transform: scale(1.1);
+}
+
+.fa-left-long{
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+.Form img{
+    max-width: 700px;
+    filter: drop-shadow(5px 5px 10px rgb(1, 21, 41));
+}
+
+
+.form-div {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  max-width: 700px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+
+.Form .img-label {
+  display: block;
+  position: relative;
+  cursor: pointer;
+}
+
+.img-label i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: rgba(65, 122, 168, 0.755);
+  border: 1px solid #ccc;
+  background-color: #fff;
+  padding: 2px;
+  border-radius: 3px;
+}
+
+.img-label input[type="file"] {
+  display: none;
+}
+
+
+.Form input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="email"],
+.password,
+input[type="tel"]{
+  width: 370px;
+  margin-right: 5px;
+  margin-left: 5px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+  outline: none;
+}
+
+.Form input:hover{
+    box-shadow: 0 3px 10px gray;
+}
+
+.Form .Add-User {
+  padding: 10px;
+  background-color: #17314cca;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: cursive;
+}
+
+
+.Form .Add-User:hover {
+  background-color: #0a3461ce;
+}
+
+.fa-camera{
+  width: 370px;
+  color: #0a3461ce;
+  border: none;
+}
